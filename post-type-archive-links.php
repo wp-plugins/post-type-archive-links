@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Post Type Archive Links
-Version: 1.0
+Version: 1.0.1
 Description: Adds a metabox to the Appearance > Menu page to add post type archive links
 Author: Stephen Harris
 Author URI: http://profiles.wordpress.org/users/stephenh1988/

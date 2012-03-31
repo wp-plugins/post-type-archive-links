@@ -30,5 +30,8 @@ The metabox will list only public custom post types
 
 == Changelog ==
 
+= 1.0.1 =
+* Fixed enqueue bug
+
 = 1.0 =
 * Added plug-in
