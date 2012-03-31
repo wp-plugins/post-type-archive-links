@@ -58,7 +58,7 @@ class Harris_Post_Type_Archive_Link{
                return;
 
           //On Appearance>Menu page, enqueue script: 
-          wp_enqueue_script( 'my-post-type-archive-links_metabox', plugins_url('/metabox.js'),array('jquery'));
+          wp_enqueue_script( 'my-post-type-archive-links_metabox', plugins_url('/metabox.js', __FILE__),array('jquery'));
 
           //Add nonce variable
           wp_localize_script('my-post-type-archive-links_metabox','MyPostTypeArchiveLinks', array('nonce'=>wp_create_nonce('my-add-post-type-archive-links')));
